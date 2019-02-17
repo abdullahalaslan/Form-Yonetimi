@@ -1,0 +1,93 @@
+﻿@model IEnumerable<FormYonetimi.Data.Model.Form>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <title>List</title>
+</head>
+<body>
+
+    <div class="container" style="padding-top:160px; float:left">
+        <input style="float:left" id="myInput" type="text" placeholder="Arama..">
+        <!-- Button trigger modal -->
+        <button style="float:right" type="button" class="btn btn-secondary btn-group-sm" data-toggle="modal" data-target="#myModal">
+            Yeni Form Oluştur
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body">
+                        @Html.Partial("Index")
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <table class="table table-sm ">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Form Adı</th>
+                    <th scope="col">Açıklama</th>
+                    <th scope="col">Oluşturulma Tarihi</th>
+                </tr>
+            </thead>
+            <tbody id="myTable">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th scope="row">@item.FormId</th>
+                        <td id="formname" class="formname">@item.FormName</td>
+                        <td>@item.FormDescription</td>
+                        <td>@item.CreatedAt</td>
+                        <td> <a href="/Home/Detay/?id=@item.FormId" type="button" class="btn btn-dark btn-group-sm" data-dismiss="modal">Görüntüle</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script>
+        function centerModal() {
+            $(this).css('display', 'block');
+            var $dialog = $(this).find(".modal-dialog");
+            var offset = ($(window).height() - $dialog.height()) / 2;
+            $dialog.css("margin-top", offset);
+        }
+
+        $('.modal').on('show.bs.modal', centerModal);
+        $(window).on("resize", function () {
+            $('.modal:visible').each(centerModal);
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+                debugger
+                var value = $(this).val().toLowerCase();
+                var rows = $("#myTable").find("tr");
+                if (value == '') {
+                    rows.show();
+                } else {
+                    rows.hide();
+                    rows.filter(function () {
+                        return $(this).find('.formname').text().indexOf(value) > -1
+                    }).show()
+                }
+            })
+        });
+    </script>
+</body>
+</html>

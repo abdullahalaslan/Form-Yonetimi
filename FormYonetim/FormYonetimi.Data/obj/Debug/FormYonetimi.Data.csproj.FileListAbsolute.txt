@@ -1,0 +1,14 @@
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\bin\Debug\FormYonetimi.Data.dll.config
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\bin\Debug\FormYonetimi.Data.dll
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\bin\Debug\FormYonetimi.Data.pdb
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\bin\Debug\EntityFramework.dll
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\bin\Debug\EntityFramework.xml
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\obj\Debug\FormYonetimi.Data.dll
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\obj\Debug\FormYonetimi.Data.pdb
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\obj\Debug\FormYonetimi.Data.Migrations.FormOlustur.resources
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\obj\Debug\FormYonetimi.Data.csproj.GenerateResource.Cache
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\obj\Debug\FormYonetimi.Data.Migrations.AdminForm.resources
+C:\Users\AAlsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\obj\Debug\FormYonetimi.Data.csprojResolveAssemblyReference.cache
+C:\Users\AAlsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Data\obj\Debug\FormYonetimi.Data.Migrations.DatetimeFix.resources

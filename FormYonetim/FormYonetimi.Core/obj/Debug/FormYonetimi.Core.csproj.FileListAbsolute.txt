@@ -1,0 +1,12 @@
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Core\bin\Debug\FormYonetimi.Core.dll.config
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Core\bin\Debug\FormYonetimi.Core.dll
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Core\bin\Debug\FormYonetimi.Core.pdb
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Core\bin\Debug\EntityFramework.dll
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Core\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Core\bin\Debug\FormYonetimi.Data.dll
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Core\bin\Debug\FormYonetimi.Data.pdb
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Core\bin\Debug\EntityFramework.xml
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Core\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Core\obj\Debug\FormYonetimi.Core.csprojResolveAssemblyReference.cache
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Core\obj\Debug\FormYonetimi.Core.dll
+c:\users\aalsln\documents\visual studio 2015\Projects\FormYonetim\FormYonetimi.Core\obj\Debug\FormYonetimi.Core.pdb
